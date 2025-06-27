@@ -1,0 +1,25 @@
+@import './style/globals.css';
+@import './style/utilities.css';
+@import './style/components.css';
+
+@media (max-width: 640px) {
+  .form-container {
+    margin: 0 1rem;
+    padding: 1.5rem;
+  }
+  
+  .link-container {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .header-content {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  
+  .header-nav {
+    justify-content: center;
+  }
+}
